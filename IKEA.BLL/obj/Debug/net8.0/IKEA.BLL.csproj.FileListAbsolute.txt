@@ -1,0 +1,16 @@
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.BLL.deps.json
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.BLL.dll
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.BLL.pdb
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.DAL.dll
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\bin\Debug\net8.0\IKEA.DAL.pdb
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.AssemblyReference.cache
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.GeneratedMSBuildEditorConfig.editorconfig
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.AssemblyInfoInputs.cache
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.AssemblyInfo.cs
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.CoreCompileInputs.cache
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.Up2Date
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.dll
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\refint\IKEA.BLL.dll
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.pdb
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\ref\IKEA.BLL.dll
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.sourcelink.json
