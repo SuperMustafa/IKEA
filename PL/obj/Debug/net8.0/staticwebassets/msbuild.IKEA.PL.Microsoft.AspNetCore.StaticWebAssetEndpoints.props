@@ -28,13 +28,13 @@
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\IKEA.PL.6kzxylr2tk.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"6kzxylr2tk"},{"Name":"integrity","Value":"sha256-usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8="},{"Name":"label","Value":"_content/IKEA.PL/IKEA.PL.bundle.scp.css"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 21:13:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 20:20:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IKEA.PL/IKEA.PL.bundle.scp.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\IKEA.PL.6kzxylr2tk.bundle.scp.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 21:13:00 GMT"}]]]></ResponseHeaders>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 20:20:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IKEA.PL/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>

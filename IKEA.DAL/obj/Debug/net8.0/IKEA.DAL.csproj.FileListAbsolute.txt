@@ -1,13 +1,13 @@
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\bin\Debug\net8.0\IKEA.DAL.deps.json
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\bin\Debug\net8.0\IKEA.DAL.dll
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\bin\Debug\net8.0\IKEA.DAL.pdb
+E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.csproj.AssemblyReference.cache
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.GeneratedMSBuildEditorConfig.editorconfig
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.AssemblyInfoInputs.cache
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.AssemblyInfo.cs
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.csproj.CoreCompileInputs.cache
+E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.sourcelink.json
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.dll
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\refint\IKEA.DAL.dll
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.pdb
 E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\ref\IKEA.DAL.dll
-E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.csproj.AssemblyReference.cache
-E:\asp.net\Assignments\MVC\IKEA\IKEA.DAL\obj\Debug\net8.0\IKEA.DAL.sourcelink.json

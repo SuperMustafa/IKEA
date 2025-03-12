@@ -81,13 +81,22 @@ namespace IKEA.PL.Controllers
         public IActionResult Details(int? id)
         {
             if (id is null)
-
+            {
                 return BadRequest();
+
+
+            }
+
 
             var department = _departmentService.GetDepartmentById(id.Value);
             if (department is null)
-
+            
+            {
                 return NotFound();
+
+
+            }
+
 
             return View(department);
 

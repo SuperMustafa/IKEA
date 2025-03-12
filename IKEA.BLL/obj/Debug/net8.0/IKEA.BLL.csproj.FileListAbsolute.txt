@@ -8,9 +8,9 @@ E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.GeneratedMSBu
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.AssemblyInfoInputs.cache
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.AssemblyInfo.cs
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.CoreCompileInputs.cache
+E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.sourcelink.json
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.csproj.Up2Date
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.dll
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\refint\IKEA.BLL.dll
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.pdb
 E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\ref\IKEA.BLL.dll
-E:\asp.net\Assignments\MVC\IKEA\IKEA.BLL\obj\Debug\net8.0\IKEA.BLL.sourcelink.json

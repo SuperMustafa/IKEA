@@ -20,7 +20,7 @@ namespace IKEA.BLL.Services.Departments
         public IEnumerable<DepartmentToReturnDto> GetAllDepartments()
         {
             
-           var departments = _departmentRepository.GetAllQueryable().Select(D => new DepartmentToReturnDto
+           var departments = _departmentRepository.GetAllQueryable().Where(D=>!D.IsDeleted).Select(D => new DepartmentToReturnDto
             {
                 Description = D.Description,
                 Name = D.Name,
@@ -49,7 +49,7 @@ namespace IKEA.BLL.Services.Departments
                     LastModificationOn = department.LastModificationOn,
                     Name = department.Name,
 
-                };
+                }; 
                
             
             }
