@@ -36,17 +36,29 @@
       <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8="}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"1125"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022usdgxhImw1vh903DZETQNc5e8MEbyDYht9w9i3oHQd8=\u0022"},{"Name":"Last-Modified","Value":"Sun, 09 Mar 2025 20:20:01 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IKEA.PL/images/green-check-mark-icon-isolated-600nw-1718913823.gnobikcxbr.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\green-check-mark-icon-isolated-600nw-1718913823.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"gnobikcxbr"},{"Name":"integrity","Value":"sha256-dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0="},{"Name":"label","Value":"_content/IKEA.PL/images/green-check-mark-icon-isolated-600nw-1718913823.webp"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5622"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 23:26:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/IKEA.PL/images/green-check-mark-icon-isolated-600nw-1718913823.webp">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\images\green-check-mark-icon-isolated-600nw-1718913823.webp'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"5622"},{"Name":"Content-Type","Value":"image/webp"},{"Name":"ETag","Value":"\u0022dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0=\u0022"},{"Name":"Last-Modified","Value":"Sun, 16 Mar 2025 23:26:20 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IKEA.PL/js/site.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 20:52:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-nykQSAse44F/\u002B63HbDEKSeatK\u002BIXlGCTozSCVkaYpI0="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"233"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nykQSAse44F/\u002B63HbDEKSeatK\u002BIXlGCTozSCVkaYpI0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 21:46:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/IKEA.PL/js/site.xtxxf3hu2r.js">
+    <StaticWebAssetEndpoint Include="_content/IKEA.PL/js/site.z7s3owm2md.js">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"xtxxf3hu2r"},{"Name":"integrity","Value":"sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="},{"Name":"label","Value":"_content/IKEA.PL/js/site.js"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"231"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\u0022"},{"Name":"Last-Modified","Value":"Sun, 23 Feb 2025 20:52:30 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"z7s3owm2md"},{"Name":"integrity","Value":"sha256-nykQSAse44F/\u002B63HbDEKSeatK\u002BIXlGCTozSCVkaYpI0="},{"Name":"label","Value":"_content/IKEA.PL/js/site.js"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"233"},{"Name":"Content-Type","Value":"text/javascript"},{"Name":"ETag","Value":"\u0022nykQSAse44F/\u002B63HbDEKSeatK\u002BIXlGCTozSCVkaYpI0=\u0022"},{"Name":"Last-Modified","Value":"Sat, 15 Mar 2025 21:46:02 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/IKEA.PL/lib/bootstrap/dist/css/bootstrap-grid.agp80tu62r.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\dist\css\bootstrap-grid.css'))</AssetFile>

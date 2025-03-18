@@ -5,6 +5,7 @@ using IKEA.PL.ViewModels.Department;
 using IKEA.BLL.Services.Employees;
 using IKEA.BLL.Dtos.Employees;
 using IKEA.DAL.Common.Enums;
+using IKEA.PL.ViewModels.Employee;
 
 namespace IKEA.PL.Controllers
 {
@@ -36,30 +37,49 @@ namespace IKEA.PL.Controllers
         public IActionResult Create() {
             return View();
         }
+
+
+
         [HttpPost]
-        public IActionResult Create(CreateEmployeeDto employee)
+        [ValidateAntiForgeryToken]
+        public IActionResult Create(EmployeeViewModel employeeVm)
         {
             if (!ModelState.IsValid)
             {
 
-                return View(employee);
+                return View(employeeVm);
 
             }
             var message = string.Empty;
 
             try {
-                var result = _employeeService.CreateEmployee(employee);
+                var result = _employeeService.CreateEmployee(new CreateEmployeeDto()
+                {
+                    Name = employeeVm.Name,
+                    Address = employeeVm.Address,
+                    Age= employeeVm.Age,
+                    Email= employeeVm.Email,
+                    EmployeeType= employeeVm.EmployeeType,
+                    Gender= employeeVm.Gender,
+                    HiringDate= employeeVm.HiringDate,
+                    IsActive= employeeVm.IsActive,
+                    PhoneNumber= employeeVm.PhoneNumber,
+                    Salary = employeeVm.Salary
+
+                });
                 if (result > 0)
                 {
-                    return RedirectToAction("Index");
+                    TempData["Message"] = "Employee Created Successfully";
+                    
                 }
                 else
                 {
                     message = "No Employee Has been Created";
+                    TempData["Message"] = message;
                     ModelState.AddModelError(string.Empty, message);
-                    return View(employee);
 
                 }
+                return RedirectToAction("Index");
 
 
             }
@@ -70,7 +90,7 @@ namespace IKEA.PL.Controllers
                 if (_environment.IsDevelopment())
                 {
                     message = ex.Message;
-                    return View(employee);
+                    return View(employeeVm);
 
                 }
                 else
@@ -104,6 +124,8 @@ namespace IKEA.PL.Controllers
             return View(employee);
 
         }
+
+
         [HttpGet]
         public IActionResult Edit(int? id)
         {
@@ -116,7 +138,7 @@ namespace IKEA.PL.Controllers
 
                 return NotFound();
 
-            return View(new EmployeeToUpdateDto()
+            return View(new EmployeeViewModel()
             {
                 Name = employee.Name,
                 Age = employee.Age,
@@ -132,40 +154,58 @@ namespace IKEA.PL.Controllers
 
         }
 
+
+        [ValidateAntiForgeryToken]
         [HttpPost]
-        public IActionResult Edit(int id, EmployeeToUpdateDto employeeDto)
+        public IActionResult Edit(int id, EmployeeViewModel employeeVm)
         {
             if (!ModelState.IsValid)
             {
 
-                return View(employeeDto);
+                return View(employeeVm);
 
             }
             var message = string.Empty;
 
             try
             {
-                var result = _employeeService.UpdateEmployee(employeeDto);
+                var result = _employeeService.UpdateEmployee(new EmployeeToUpdateDto() 
+                {
+                    Id=employeeVm.Id,
+                    Name=employeeVm.Name,
+                    Address=employeeVm.Address,
+                    Salary=employeeVm.Salary,
+                    IsActive=employeeVm.IsActive,
+                    Email=employeeVm.Email,
+                    PhoneNumber=employeeVm.PhoneNumber,
+                    HiringDate=employeeVm.HiringDate,
+                    Age = employeeVm.Age,
+                    EmployeeType = employeeVm.EmployeeType,
+                    Gender = employeeVm.Gender
+                    
+                    
+                });
                
                 if (result > 0)
                 {
-                    return RedirectToAction("Index");
+                    TempData["Message"] = "Employee Updated Successfully";
                 }
                 else
                 {
-                    message = "No Employee Has been Updated"; 
+                    message = "No Employee Has been Updated";
+                    TempData["Message"] = message;  
                     ModelState.AddModelError(string.Empty, message);
-                    return View(employeeDto);
 
                 }
 
+                return RedirectToAction("Index");
 
             }
             catch (Exception ex)
             {
                 message = _environment.IsDevelopment() ? ex.Message : "No Employee Has been Updated";
             }
-            return View(employeeDto);
+            return View(employeeVm);
         }
         [HttpGet]
         public IActionResult Delete(int? id)

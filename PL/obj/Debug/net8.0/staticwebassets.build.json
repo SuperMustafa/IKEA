@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "m59CHhPhnyac69pdyuUDWBswNpqr7sZyfyOpD1H9LT4=",
+  "Hash": "har5hJMLHI02DP/fAge63eYWs1O0vzI56zGQ2u9kX/k=",
   "Source": "IKEA.PL",
   "BasePath": "_content/IKEA.PL",
   "Mode": "Default",
@@ -101,6 +101,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\images\\green-check-mark-icon-isolated-600nw-1718913823.webp",
+      "SourceId": "IKEA.PL",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\",
+      "BasePath": "_content/IKEA.PL",
+      "RelativePath": "images/green-check-mark-icon-isolated-600nw-1718913823#[.{fingerprint}]?.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "gnobikcxbr",
+      "Integrity": "dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\green-check-mark-icon-isolated-600nw-1718913823.webp"
+    },
+    {
       "Identity": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\js\\site.js",
       "SourceId": "IKEA.PL",
       "SourceType": "Discovered",
@@ -115,8 +136,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "xtxxf3hu2r",
-      "Integrity": "hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=",
+      "Fingerprint": "z7s3owm2md",
+      "Integrity": "nykQSAse44F/+63HbDEKSeatK+IXlGCTozSCVkaYpI0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -1649,6 +1670,88 @@
       ]
     },
     {
+      "Route": "images/green-check-mark-icon-isolated-600nw-1718913823.gnobikcxbr.webp",
+      "AssetFile": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\images\\green-check-mark-icon-isolated-600nw-1718913823.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 23:26:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gnobikcxbr"
+        },
+        {
+          "Name": "label",
+          "Value": "images/green-check-mark-icon-isolated-600nw-1718913823.webp"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0="
+        }
+      ]
+    },
+    {
+      "Route": "images/green-check-mark-icon-isolated-600nw-1718913823.webp",
+      "AssetFile": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\images\\green-check-mark-icon-isolated-600nw-1718913823.webp",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "5622"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/webp"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 16 Mar 2025 23:26:20 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-dIyDN3fbqUDrvmQIQPjH4xdM1H9RroDrL8/77xD2Wv0="
+        }
+      ]
+    },
+    {
       "Route": "js/site.js",
       "AssetFile": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\js\\site.js",
       "Selectors": [],
@@ -1659,7 +1762,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "233"
         },
         {
           "Name": "Content-Type",
@@ -1667,11 +1770,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"nykQSAse44F/+63HbDEKSeatK+IXlGCTozSCVkaYpI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 20:52:30 GMT"
+          "Value": "Sat, 15 Mar 2025 21:46:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1681,12 +1784,12 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-nykQSAse44F/+63HbDEKSeatK+IXlGCTozSCVkaYpI0="
         }
       ]
     },
     {
-      "Route": "js/site.xtxxf3hu2r.js",
+      "Route": "js/site.z7s3owm2md.js",
       "AssetFile": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -1696,7 +1799,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "231"
+          "Value": "233"
         },
         {
           "Name": "Content-Type",
@@ -1704,11 +1807,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo=\""
+          "Value": "\"nykQSAse44F/+63HbDEKSeatK+IXlGCTozSCVkaYpI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 23 Feb 2025 20:52:30 GMT"
+          "Value": "Sat, 15 Mar 2025 21:46:02 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -1718,7 +1821,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "xtxxf3hu2r"
+          "Value": "z7s3owm2md"
         },
         {
           "Name": "label",
@@ -1726,7 +1829,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-hRQyftXiu1lLX2P9Ly9xa4gHJgLeR1uGN5qegUobtGo="
+          "Value": "sha256-nykQSAse44F/+63HbDEKSeatK+IXlGCTozSCVkaYpI0="
         }
       ]
     },

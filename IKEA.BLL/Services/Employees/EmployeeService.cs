@@ -19,7 +19,7 @@ namespace IKEA.BLL.Services.Employees
 
         public IEnumerable<EmployeeToReturnDto> GetAllEmployee()
         {
-            return _employeeRepository.GetAllQueryable().Where(E=>!E.IsDeleted).Select(employee => new EmployeeToReturnDto()
+         var query = _employeeRepository.GetAllEnumerable().Where(E=>!E.IsDeleted).Select(employee => new EmployeeToReturnDto()
             {
                 Id = employee.Id,
                 Name = employee.Name,
@@ -30,6 +30,10 @@ namespace IKEA.BLL.Services.Employees
                 EmployeeType = employee.EmployeeType.ToString(),
                 Gender = employee.Gender.ToString()
             });
+            var employees = query.ToList();
+            var count=employees.Count();
+            var firstEmployee = query.FirstOrDefault();
+            return query;
         }
 
         public EmployeeDetailsToReturnDto? GetEmployeeById(int id)
@@ -100,6 +104,7 @@ namespace IKEA.BLL.Services.Employees
                 IsActive = employeeDto.IsActive,
                 HiringDate = employeeDto.HiringDate,
                 Gender = employeeDto.Gender,
+                EmployeeType=employeeDto.EmployeeType,
                 CreatedBy = 1,
                 LastModificationBy = 1,
                 LastModificationOn = DateTime.UtcNow,

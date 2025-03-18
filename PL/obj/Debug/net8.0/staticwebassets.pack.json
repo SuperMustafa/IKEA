@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\images\\green-check-mark-icon-isolated-600nw-1718913823.webp",
+      "PackagePath": "staticwebassets\\images\\green-check-mark-icon-isolated-600nw-1718913823.webp"
+    },
+    {
       "Id": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

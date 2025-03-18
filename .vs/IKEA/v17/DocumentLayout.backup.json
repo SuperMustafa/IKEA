@@ -3,40 +3,56 @@
   "WorkspaceRootPath": "E:\\asp.net\\Assignments\\MVC\\IKEA\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\ikea.bll\\dtos\\employees\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|solutionrelative:ikea.bll\\dtos\\employees\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\ikea.bll\\dtos\\employees\\employeetoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|solutionrelative:ikea.bll\\dtos\\employees\\employeetoreturndto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\department\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\controllers\\employeecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\ikea.bll\\dtos\\employees\\employeetoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|solutionrelative:ikea.bll\\dtos\\employees\\employeetoupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\controllers\\departmentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\ikea.bll\\dtos\\employees\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA1AEA7-225B-48C3-B645-9CA5B31F681D}|IKEA.BLL\\IKEA.BLL.csproj|solutionrelative:ikea.bll\\dtos\\employees\\createemployeedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\employee\\partialviews\\createeditemployeepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\employee\\partialviews\\createeditemployeepartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\department\\partialviews\\createeditdepartmentpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\department\\partialviews\\createeditdepartmentpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\department\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\department\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|e:\\asp.net\\assignments\\mvc\\ikea\\pl\\views\\shared\\_buttonspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{60CE6B38-C529-4D41-B11A-648AB022B242}|PL\\IKEA.PL.csproj|solutionrelative:pl\\views\\shared\\_buttonspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,101 +62,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CreateEmployeeDto.cs",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
-              "RelativeDocumentMoniker": "IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
-              "RelativeToolTip": "IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
-              "ViewState": "AgIAABAAAAAAAAAAAAAQwBsAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T10:41:12.602Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployeeToReturnDto.cs",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\EmployeeToReturnDto.cs",
-              "RelativeDocumentMoniker": "IKEA.BLL\\Dtos\\Employees\\EmployeeToReturnDto.cs",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\EmployeeToReturnDto.cs",
-              "RelativeToolTip": "IKEA.BLL\\Dtos\\Employees\\EmployeeToReturnDto.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwBQAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-12T10:01:21.991Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Employee\\Edit.cshtml",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Edit.cshtml",
-              "RelativeToolTip": "PL\\Views\\Employee\\Edit.cshtml",
-              "ViewState": "AgIAADYAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T22:32:53.691Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "EmployeeToUpdateDto.cs",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\EmployeeToUpdateDto.cs",
-              "RelativeDocumentMoniker": "IKEA.BLL\\Dtos\\Employees\\EmployeeToUpdateDto.cs",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\EmployeeToUpdateDto.cs",
-              "RelativeToolTip": "IKEA.BLL\\Dtos\\Employees\\EmployeeToUpdateDto.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAAwAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T22:24:20.464Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployeeController.cs",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Controllers\\EmployeeController.cs",
-              "RelativeDocumentMoniker": "PL\\Controllers\\EmployeeController.cs",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Controllers\\EmployeeController.cs",
-              "RelativeToolTip": "PL\\Controllers\\EmployeeController.cs",
-              "ViewState": "AgIAAIMAAAAAAAAAAAAmwJ4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T21:59:38.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Details.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Employee\\Details.cshtml",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Details.cshtml",
-              "RelativeToolTip": "PL\\Views\\Employee\\Details.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAAC8AAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T12:58:35.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Create.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\Employee\\Create.cshtml",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Create.cshtml",
-              "RelativeToolTip": "PL\\Views\\Employee\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAAAEAAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T10:39:55.948Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -149,22 +72,163 @@
               "RelativeDocumentMoniker": "PL\\Views\\Employee\\Index.cshtml",
               "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Index.cshtml",
               "RelativeToolTip": "PL\\Views\\Employee\\Index.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAACYAAABBAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T10:27:00.726Z",
+              "WhenOpened": "2025-03-18T12:43:15.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\Index.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Department\\Index.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\Index.cshtml",
+              "RelativeToolTip": "PL\\Views\\Department\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-18T12:40:48.939Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateEditDepartmentPartial.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\PartialViews\\CreateEditDepartmentPartial.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Department\\PartialViews\\CreateEditDepartmentPartial.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\PartialViews\\CreateEditDepartmentPartial.cshtml",
+              "RelativeToolTip": "PL\\Views\\Department\\PartialViews\\CreateEditDepartmentPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:22:55.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Employee\\Edit.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Edit.cshtml",
+              "RelativeToolTip": "PL\\Views\\Employee\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:28:14.529Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Create.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Employee\\Create.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\Create.cshtml",
+              "RelativeToolTip": "PL\\Views\\Employee\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:25:55.783Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DepartmentController.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Controllers\\DepartmentController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\DepartmentController.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Controllers\\DepartmentController.cs",
+              "RelativeToolTip": "PL\\Controllers\\DepartmentController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAwEkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T22:22:50.416Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmployeeController.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Controllers\\EmployeeController.cs",
+              "RelativeDocumentMoniker": "PL\\Controllers\\EmployeeController.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Controllers\\EmployeeController.cs",
+              "RelativeToolTip": "PL\\Controllers\\EmployeeController.cs",
+              "ViewState": "AgIAAK0AAAAAAAAAAAAwwMQAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T23:01:52.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "PL\\Views\\_ViewImports.cshtml",
-              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\_ViewImports.cshtml",
-              "RelativeToolTip": "PL\\Views\\_ViewImports.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAeAAAAAAAAAA==",
+              "Title": "CreateEditEmployeePartial.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\PartialViews\\CreateEditEmployeePartial.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Employee\\PartialViews\\CreateEditEmployeePartial.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Employee\\PartialViews\\CreateEditEmployeePartial.cshtml",
+              "RelativeToolTip": "PL\\Views\\Employee\\PartialViews\\CreateEditEmployeePartial.cshtml",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-11T10:51:17.686Z"
+              "WhenOpened": "2025-03-17T22:29:30.716Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CreateEmployeeDto.cs",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
+              "RelativeDocumentMoniker": "IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
+              "RelativeToolTip": "IKEA.BLL\\Dtos\\Employees\\CreateEmployeeDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-17T23:05:48.625Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\Create.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Department\\Create.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\Create.cshtml",
+              "RelativeToolTip": "PL\\Views\\Department\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:24:51.962Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\Edit.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Department\\Edit.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Department\\Edit.cshtml",
+              "RelativeToolTip": "PL\\Views\\Department\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:39:05.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "PL\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:24:26.7Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "_ButtonsPartial.cshtml",
+              "DocumentMoniker": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "RelativeDocumentMoniker": "PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "ToolTip": "E:\\asp.net\\Assignments\\MVC\\IKEA\\PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "RelativeToolTip": "PL\\Views\\Shared\\_ButtonsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-17T22:24:00.241Z"
             }
           ]
         }

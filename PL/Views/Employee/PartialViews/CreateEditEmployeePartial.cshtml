@@ -1,0 +1,88 @@
+﻿@model EmployeeViewModel 
+
+
+    <form method="post" asp-controller="Employee" asp-action="@ViewBag.Action">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="Name">Name</label>
+            <input class="form-control" asp-for="Name" />
+            <span class="alert-danger " asp-validation-for="Name"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="Email">Email</label>
+            <input class="form-control" asp-for="Email" />
+            <span class="alert-danger " asp-validation-for="Email"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="Age">Age</label>
+            <input class="form-control" asp-for="Age" />
+            <span class="alert-danger " asp-validation-for="Age"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="Address">Address</label>
+            <textarea class="form-control" asp-for="Address"></textarea>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="Salary">Salary</label>
+            <input class="form-control" asp-for="Salary" />
+            <span class="alert-danger " asp-validation-for="Salary"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="PhoneNumber">PhoneNumber</label>
+            <input class="form-control" asp-for="PhoneNumber" />
+            <span class="alert-danger " asp-validation-for="PhoneNumber"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label text-primary" asp-for="HiringDate">Hiring Date</label>
+            <input type="date" class="form-control" asp-for="HiringDate" />
+            <span class="alert-danger " asp-validation-for="HiringDate"></span>
+        </div>
+        <div>
+            <label asp-for="Gender" class="d-block text-primary">Gender</label>
+            @foreach (Gender genderOption in Enum.GetValues(typeof(Gender)))
+            {
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input " type="radio" asp-for="Gender" value="@genderOption" />
+                    <label class="form-check-label">@genderOption</label>
+
+                </div>
+
+            }
+            <span asp-validation-for="Gender" class="text-danger"></span>
+
+        </div>
+        <div class="form-group mb-3">
+            <label asp-for="EmployeeType" class="my-3 text-primary">EmployeeType</label>
+            <select asp-for="EmployeeType" asp-items="Html.GetEnumSelectList<EmployeeType>()" class="form-control">
+                <option>Select Employee Type</option>
+            </select>
+            <span asp-validation-for="EmployeeType" class="text-danger"></span>
+        </div>
+        <div class="form-group mb-3 d-flex  align-items-center  ">
+            <label asp-for="IsActive" class="col-form-label me-3 text-primary">Is Active</label>
+            <input asp-for="IsActive" type="checkbox" class="form-check-input text-primary" />
+
+        </div>
+        @if(ViewBag.Action=="Create"){
+            <div class="form-buttons mt-3 mx-auto ">
+                @* <button type="submit" class="btn btn-primary">Create </button> *@
+                <input class="btn btn-success " type="submit" value="Create" />
+                <a asp-controller="Employee" asp-action="Index" class="btn btn-outline-dark">Back To List</a>
+
+            </div>
+        }
+        else{
+            <div class="form-buttons mt-3 mx-auto ">
+                @* <button type="submit" class="btn btn-primary">Create </button> *@
+                <input class="btn btn-primary " type="submit" value="Edit" />
+                <a asp-controller="Employee" asp-action="Index" class="btn btn-outline-dark">Back To List</a>
+
+            </div>
+        }
+       
+    </form>
+
+
+

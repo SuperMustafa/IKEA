@@ -1,0 +1,46 @@
+﻿@model DepartmentViewModel
+
+    <form method="post" asp-controller="Department" asp-action="@ViewBag.Action">
+        <div asp-validation-summary="ModelOnly"></div>
+        <div class="form-group mb-3">
+            <label class="form-label text-success" asp-for="Code">Code</label>
+        <input class="form-control" asp-for="Code" />
+        <span class="alert-danger " asp-validation-for="Code"></span>
+        </div>
+        <div class="form-group mb-3">
+            <label class="form-label text-success" asp-for="Name">Name</label>
+            <input class="form-control" asp-for="Name" />
+            <span class="alert-danger " asp-validation-for="Name"></span>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label text-success" asp-for="Description">Description</label>
+            <textarea class="form-control" asp-for="Description"></textarea>
+        </div>
+
+        <div class="form-group mb-3">
+            <label class="form-label text-success" asp-for="CreationDate">CreationDate</label>
+            <input type="date" class="form-control" asp-for="CreationDate" />
+            <span class="alert-danger " asp-validation-for="CreationDate"></span>
+        </div>
+        @if(ViewBag.Action=="Create"){
+        <div class="form-buttons mt-3 mx-auto ">
+            @* <button type="submit" class="btn btn-primary">Create </button> *@
+            <input class="btn btn-success " type="submit" value="Create" /> 
+            <a asp-controller="Department" asp-action="Index" class="btn btn-outline-dark">Back To List</a>
+
+        </div>
+        }
+        else{
+        <div class="form-buttons mt-3 mx-auto ">
+            @* <button type="submit" class="btn btn-primary">Create </button> *@
+            <input class="btn btn-primary " type="submit" value="Edit" />
+            <a asp-controller="Department" asp-action="Index" class="btn btn-outline-dark">Back To List</a>
+
+        </div>
+        }
+       
+
+
+    </form>
+  

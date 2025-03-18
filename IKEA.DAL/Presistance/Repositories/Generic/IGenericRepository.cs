@@ -13,6 +13,7 @@ namespace IKEA.DAL.Presistance.Repositories.Generic
     {
         IEnumerable<T> GetAll(bool WithNoTracking = true);
         IQueryable<T> GetAllQueryable();
+        IEnumerable<T> GetAllEnumerable();
         T? GetById(int id);
         int Add(T entity);
         int Update(T entity);

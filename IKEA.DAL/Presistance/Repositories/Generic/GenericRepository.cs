@@ -13,7 +13,7 @@ namespace IKEA.DAL.Presistance.Repositories.Generic
     public class GenericRepository<T> : IGenericRepository<T> where T: BaseModel
     {
         private readonly ApplicationDbContext _context; // create a refernce of class ApplicationDbContext
-        public GenericRepository(ApplicationDbContext dbContext)  // talk here to data base
+        public GenericRepository(ApplicationDbContext dbContext)  // talk here to data base with help of clr
         {
             _context = dbContext;
 
@@ -56,6 +56,11 @@ namespace IKEA.DAL.Presistance.Repositories.Generic
         {
             return _context.Set<T>();
         }
-  
+
+        public IEnumerable<T> GetAllEnumerable()
+        {
+            return _context.Set<T>();
+
+        }
     }
 }

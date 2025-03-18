@@ -25,6 +25,8 @@ namespace IKEA.PL.Controllers
         [HttpGet]
         public IActionResult Index()
         {
+            //ViewData["text"] = "Hello from Index";   //viewbag and viewdata talks to same storage
+            //ViewBag.Message = "Hello from Index";
             var departments = _departmentService.GetAllDepartments();
             return View(departments);
         }
@@ -33,30 +35,41 @@ namespace IKEA.PL.Controllers
         public IActionResult Create() {
             return View();
         }
+
+
+        [ValidateAntiForgeryToken]
         [HttpPost]
-        public IActionResult Create(CreateDepartmentDto department)
+        public IActionResult Create(DepartmentViewModel departmentVm)
         {
             if (!ModelState.IsValid)
             {
 
-                return View(department);
+                return View(departmentVm);
 
             }
             var message = string.Empty;
 
             try {
-                var result = _departmentService.CreateDeparment(department);
+                var result = _departmentService.CreateDeparment(new CreateDepartmentDto() 
+                {
+                    Name =departmentVm.Name,
+                    Code =departmentVm.Code,
+                    Description =departmentVm.Description,
+                    CreationDate =departmentVm.CreationDate,
+                });
                 if (result > 0)
                 {
-                    return RedirectToAction("Index");
+                    TempData["Message"] = "Department Created Successfully";
                 }
                 else
                 {
+                   
                     message = "No Department Has been Created";
+                    TempData["Message"] = message;
                     ModelState.AddModelError(string.Empty, message);
-                    return View(department);
 
                 }
+              return  RedirectToAction("Index");
 
 
             }
@@ -67,7 +80,7 @@ namespace IKEA.PL.Controllers
                 if (_environment.IsDevelopment())
                 {
                     message = ex.Message;
-                    return View(department);
+                    return View(departmentVm);
 
                 }
                 else
@@ -113,7 +126,7 @@ namespace IKEA.PL.Controllers
 
                 return NotFound();
 
-            return View(new DepartmentEditViewModel()
+            return View(new DepartmentViewModel()
             {
                 Code = department.Code,
                 Name = department.Name,
@@ -124,13 +137,14 @@ namespace IKEA.PL.Controllers
 
         }
 
+        [ValidateAntiForgeryToken]
         [HttpPost]
-        public IActionResult Edit(int id, DepartmentEditViewModel department)
+        public IActionResult Edit(int id, DepartmentViewModel departmentVm)
         {
             if (!ModelState.IsValid)
             {
 
-                return View(department);
+                return View(departmentVm);
 
             }
             var message = string.Empty;
@@ -140,24 +154,29 @@ namespace IKEA.PL.Controllers
                 var result = _departmentService.UpdateDeparment(new UpdateDepartmentDto()
                 {
                     Id = id,
-                    Code = department.Code,
-                    Name = department.Name,
-                    CreationDate = department.CreationDate,
-                    Description = department.Description,
+                    Code = departmentVm.Code,
+                    Name = departmentVm.Name,
+                    CreationDate = departmentVm.CreationDate,
+                    Description = departmentVm.Description,
 
 
                 });
                 if (result > 0)
                 {
-                    return RedirectToAction("Index");
+                    TempData["Message"] = "Department Has been Updated Successfully";
                 }
                 else
                 {
                     message = "No Department Has been Updated";
+                    TempData["Message"] = message;
                     ModelState.AddModelError(string.Empty, message);
-                    return View(department);
+                    
 
                 }
+                return RedirectToAction("Index");
+                
+                
+
 
 
             }
@@ -165,7 +184,7 @@ namespace IKEA.PL.Controllers
             {
                 message = _environment.IsDevelopment() ? ex.Message : "No Department Has been Updated";
             }
-            return View(department);
+            return View(departmentVm);
         }
         [HttpGet]
         public IActionResult Delete(int? id)
@@ -192,8 +211,15 @@ namespace IKEA.PL.Controllers
             {
                 if (result)
                 {
+                    TempData["Message"] = "Department Deleted Successfully";
+
                     return RedirectToAction(nameof(Index));
+                   
+                }
+                else
+                {
                     message = "An Error Happend While Deleteing the department";
+                    TempData["Message"] = message;
                 }
                 }
 
